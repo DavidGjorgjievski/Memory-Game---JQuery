@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    background: linear-gradient(#1E5799, #7db9e8);
+    justify-content:center;
+    text-align:center;
+    cursor: pointer;
+}
+
+.box h2{
+    margin-top: 35px;
+    color: white;
+}
+
+.box h3{
+    display: none;
+}
+
+
+
+
